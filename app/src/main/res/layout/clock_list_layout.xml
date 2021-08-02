@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#106cd2">
+
+    <TextView
+        android:id="@+id/clock_date_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="hh:mm:ss" />
+    <DigitalClock
+        android:id="@+id/digital"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/timeout_et"
+        android:hint="time in millis"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/set_btn"
+        android:text="set sleep time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
